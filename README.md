@@ -1,9 +1,8 @@
 # AWS-EC2インスタンス上にWordPressを構築する
-MacまたはLinuxによる操作を前提としています.<br>
-Windowsの場合は, SSH接続などで異なる操作が必要となります.<br>
-ソース内部の[]は自分の値に置き換えて実行してください.
+AWSの無料枠でWordPress on EC2を体験するためのスクリプトです.
+Linuxによる操作を前提としています. ソース内部の[]は自分の値に置き換えて実行してください.
 ## 1. AWSでEC2インスンタンスを立てる
-1. Amazon Web Serviceの[アカウント作成](https://aws.amazon.com/jp/)(クレカ情報が必要です)
+1. Amazon Web Serviceの[アカウント作成](https://aws.amazon.com/jp/)(クレジットカード情報が必要です)
 
 2. ログインし, **サービス** → **コンピューティング** → **EC2**に入る
 
